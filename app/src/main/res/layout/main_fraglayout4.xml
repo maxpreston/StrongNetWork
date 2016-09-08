@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_weight="1"
+            android:id="@+id/main5_group_ka"
+            android:text="可爱"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_weight="1"
+            android:id="@+id/main5_group_zb"
+            android:text="装逼"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_weight="1"
+            android:id="@+id/main5_group_md"
+            android:text="在下"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_weight="1"
+            android:id="@+id/main5_group_gx"
+            android:text="110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+    </RadioGroup>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main5_rev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

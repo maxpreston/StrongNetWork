@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StrongNetWork</string>
+    <string name="one">使用Retro2+Rx三级缓存</string>
+    <string name="two">使用Retro2+Rx返回Bean</string>
+    <string name="three">使用Retro2+Rx返回String</string>
+    <string name="four">只使用Retrofit2</string>
+    <string name="five">装逼专用栏</string>
+    <string name="six">six</string>
+    <!-- 获取消息列表 -->
+    <string name="RequestMessagelist">http://ydbg.jxgs.gov.cn:8888/ydqz/mobileCtrl/callService.do?URL=/mobile/service/noticeApply.do?reqCode=getMsgList</string>
+</resources>
